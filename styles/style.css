@@ -1,1 +1,53 @@
 /* место для вашего кода */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 92px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+ .header_menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+ }
+
+ .header_buttons {
+    list-style-type: circle;
+ }
+.main,
+.check_lots,
+.about_auction {
+    font-family: inherit;
+    font-size: 18px;
+    border: 0;
+    background-color: white;
+}
+
+.check_lots,
+.about_auction {
+    text-decoration: underline;
+}
+
+
+.icon {
+    width: 148px;
+    height: 105px;
+    position: sticky;
+}
+
+.adress {
+    font-size: 18px;
+    line-height: 0%;
+}
+.phone_number,
+.email {
+    text-decoration: underline;
+}
+
+/* конец раздела header */
+/* начало раздела Оно тебе надо */
+
