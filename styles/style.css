@@ -1,53 +1,118 @@
-/* место для вашего кода */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 92px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 48px;
-}
-
- .header_menu{
+    margin-bottom: 96px;
     display: flex;
     justify-content: space-between;
-    text-align: left;
- }
-
- .header_buttons {
-    list-style-type: circle;
- }
-.main,
-.check_lots,
-.about_auction {
-    font-family: inherit;
-    font-size: 18px;
-    border: 0;
-    background-color: white;
-}
-
-.check_lots,
-.about_auction {
+    text-align: center;
+  }
+  
+  .header-menu-refs {
     text-decoration: underline;
-}
-
-
-.icon {
+  }
+  
+  li {
+    margin-left: 25px;
+  }
+  
+  .header-menu {
+    display: flex;
+    list-style: circle;
+    align-items: center;
+  }
+  
+  .logo {
+    position:center;
     width: 148px;
-    height: 105px;
-    position: sticky;
+    height:105px;
+  }
+  .header-adress {
+    line-height: 1px;
+    text-align: left;
+    color: black;
+  }
+  
+  a {
+    color: black;
+  }
+
+  .cover {
+	padding: 165px 50px 50px 50px;
+	margin-bottom: 180px;
+	position: relative;
+	background-image: url("./../images/cover.jpg");
+	background-size: cover;
 }
 
-.adress {
-    font-size: 18px;
-    line-height: 0%;
+/*.overlay {
+	position: absolute;
+	inset: 0;
+	background-color: var(--background-black-color);
+	z-index: 0;
 }
-.phone_number,
-.email {
-    text-decoration: underline;
+*/
+.cover-title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: relative;
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--main-white-color);
+	line-height: 100%;
+	letter-spacing: 0.3em;
+	z-index: 2;
 }
 
-/* конец раздела header */
-/* начало раздела Оно тебе надо */
+.cover-title-letter-spacing-extended {
+	letter-spacing: 0.6em;
+}
 
+.cover-title-aligned-text-center {
+	text-align: center;
+}
+
+.cover-title-aligned-text-right {
+	text-align: right;
+}
+
+.cover-title-no-letter-spacing {
+	letter-spacing: initial;
+}
+
+.cover-description-area {
+	margin-top: 135px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	z-index: 2;
+}
+
+.cover-description-text {
+	margin-right: 80px;
+	font-size: 22px;
+	color: var(--main-white-color);
+	word-spacing: 18px;
+	text-transform: uppercase;
+}
+
+.cover-button {
+	border: 1px solid var(--main-white-color);
+	padding: 12px 32px;
+	color: var(--main-white-color);
+	font-weight: 400;
+	font-size: 22px;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.cover-button:hover {
+	cursor: pointer;
+	background-color: var(--background-black-color);
+	color: var(--main-white-color);
+	-webkit-transition: background-color 0.5s, ease-in-out,  0.4s;
+	transition: background-color 0.5s, ease-in-out,  0.4s;
+}
