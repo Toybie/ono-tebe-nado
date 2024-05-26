@@ -24,6 +24,7 @@
     width: 148px;
     height:105px;
   }
+  
   .header-adress {
 	display: flex;
 	flex-direction: column;
