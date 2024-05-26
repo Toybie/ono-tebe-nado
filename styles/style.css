@@ -12,8 +12,8 @@
   }
   
   .header-menu {
-	margin-left: 26px;
-	margin-right: 36px;
+	margin-left: 52px;
+	margin-right: 10px;
     display: flex;
     list-style: circle;
     align-items: center;
@@ -45,7 +45,7 @@
   .cover {
     position: relative;
     width: 100%;
-    min-height: 757px; 
+	min-height: 757px; 
     padding: 0;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -170,7 +170,6 @@ span {
 	height: 563px;
 	width: 334px;
 	padding: 50px 40px;
-	height: 100%;
 	position:relative;
 	display: flex;
 	justify-content: space-between;
