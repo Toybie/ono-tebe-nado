@@ -24,7 +24,7 @@
     width: 148px;
     height:105px;
   }
-  
+
   .header-adress {
 	display: flex;
 	flex-direction: column;
@@ -68,7 +68,7 @@
 }
 
 span {
-    font-family: inherit;
+    font-family: Raleway;
     font-weight: bold;
 }
 
@@ -127,7 +127,7 @@ span {
 }
 
 .cover-button {
-    font-family: inherit;
+    font-family: Raleway;
 	text-transform: uppercase;
 	font-size: 22px;
 	color: white;
