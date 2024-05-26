@@ -1,3 +1,6 @@
+body {
+	font-family: inherit;
+}
 /* header */
 .header {
 	width: 1052px;
@@ -250,16 +253,9 @@ span {
 }
 
 .look-more {
-	font-family: inherit;
 	font-size: 20px;
-	text-transform: lowercase;
-	text-decoration: underline;
-	background-color: transparent;
-	border: 0;
-	padding-top: 30px;
-	padding-left: 40px;
+	margin-left: 40px;
 }
-
 .about {
 	display: grid;
 	grid-template-columns: 359px 1fr;
