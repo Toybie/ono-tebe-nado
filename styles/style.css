@@ -1,43 +1,44 @@
 /* header */
 .header {
+	width: 1052px;
+	height: 105px;
     margin-top: 92px;
     margin-left: 0;
     margin-right: 24px;
     margin-bottom: 96px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-  
-  .header-menu-refs {
-    text-decoration: underline;
-  }
-  
-  li {
-    margin-left: 25px;
+	font-size: 18px;
   }
   
   .header-menu {
+	margin-left: 26px;
+	margin-right: 36px;
     display: flex;
     list-style: circle;
     align-items: center;
   }
   
   .logo {
-    position:center;
+	margin-right: 180px;
     width: 148px;
     height:105px;
   }
   .header-adress {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
     text-align: left;
     color: black;
   }
-  
-  a {
-    color: black;
+
+  .header-menu-main {
+	list-style: none;
+	margin-right: 32px;
+  }
+
+  .header-menu-refs {
+	margin-right: 32px;
   }
 
 /* cover */
@@ -85,7 +86,7 @@ span {
 	z-index: 2;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 165px;
+	padding-top: 180px;
 }
 
 .cover-title-letter-spacing-extended {
@@ -105,7 +106,7 @@ span {
 }
 
 .cover-description-area {
-	margin-top: 135px;
+	margin-top: 147px;
 	margin-left: 78px;
 	margin-right: 50px;
 	margin-bottom: 62px;
@@ -126,14 +127,12 @@ span {
 
 .cover-button {
     font-family: inherit;
-	border: 10px white;
-	color: white;
-	font-weight: 400;
-	font-size: 22px;
-	padding: 12px 32px 11px 31px;
 	text-transform: uppercase;
+	font-size: 22px;
+	color: white;
 	background-color: transparent;
-	z-index: 5;
+	border: 2px;
+	padding: 12px 32px;
 }
 
 /* lots */
@@ -148,7 +147,7 @@ span {
 .lots-heading {
 	padding: 0 0 27px 40px;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
@@ -262,25 +261,19 @@ span {
 	padding-left: 40px;
 }
 
-/* Начало стилей секции описания аукциона */
 .about {
-	margin: 0 50px;
 	display: grid;
-	grid-template-columns: 430px 1fr;
+	grid-template-columns: 359px 1fr;
 	gap: 25px;
 }
 
 .about-logo {
-	margin: 0 auto;
+	margin-left: 71px;
 	width: 240px;
 	height: 240px;
 	display: flex;
 	justify-content: center;
 	border-radius: 50%;
-	background-color: black;
-}
-
-.about-logo:hover {
 	background-color: black;
 }
 
@@ -293,7 +286,7 @@ span {
 	margin-top: 100px;
 	color: black;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
@@ -309,13 +302,24 @@ span {
 .footer {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 180px;
-	margin-bottom: 88px;
-	margin-left: 50px;
-	margin-right: 50px
+	margin-top: 215px;
+	margin-right: 45px;
+	margin-left: 45px;
+	font-size: 18px;
+    line-height: 24.3px
 }
 
+.header-menu-main:first-child {
+	margin-left: 0;
+  }
+  
+.footer-adress {
+	width: 240px;
+	height: 98px;
+}
 .footer-menu {
+	width: auto;
+	height: 64px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -324,9 +328,9 @@ span {
 .footer-logo {
 	width: 48px;
 	height: 48px;
-	margin-left: 48px;
 }
 
 .footer-social {
 	display: flex;
+	gap: 50px;
 }
