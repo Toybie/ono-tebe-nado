@@ -19,17 +19,19 @@
 }
 
 .logo {
-    margin-right: 180px;
-    width: 148px;
+    margin-right: 187px;
+    width: 140px;
     height: 105px;
 }
 
-.header-adress {
+.header-address {
     display: flex;
     flex-direction: column;
     align-items: left;
     text-align: left;
+    font-style: normal;
     color: black;
+    line-height: 24.3px;
 }
 
 .header-menu-main {
@@ -115,7 +117,7 @@
 }
 
 .cover-description-text {
-    margin-right: 80px;
+    margin-right: 75px;
     font-size: 22px;
     color: white;
     word-spacing: 18px;
@@ -128,6 +130,7 @@
     font-size: 22px;
     color: white;
     background-color: transparent;
+    border: 1px solid white;
     padding: 12px 32px 11px 31px;
 }
 
@@ -162,6 +165,7 @@
     flex-grow: 1;
     width: 430px;
     min-height: 450px;
+    text-decoration-line: none;
 }
 
 .card {
@@ -175,6 +179,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    text-decoration-line: none;
 }
 
 .card:before {
@@ -279,8 +284,9 @@
     line-height: 24.3px;
 }
 
-.footer-adress {
+.footer-address {
     width: 240px;
+    font-style: normal;
 }
 
 .footer-menu {
